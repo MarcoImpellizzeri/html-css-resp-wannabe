@@ -148,20 +148,57 @@ img {
         font-size: 2rem;
     }
 
+    .container {
+        padding: 0;
+    }
+
     .row {
         display: block;
     }
+
+    .lessons {
+        padding-bottom: 3rem;
+    }
     
-    .lessons .col {
+    .row .col {
         width: 100%;
         padding: 0 50px;
     }
 
     .lessons .col:first-child {
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
 
-    .lessons .col img {
-        height: 100%;
+    .lessons .col img,
+    .steps .col img {
+        height: 250px;
+    }
+
+    .steps {
+        margin: 0;
+        padding: 3rem 0;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col:first-child,
+    .steps .col:nth-child(2) {
+        margin-bottom: 4rem;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding: 3rem 0;
+        margin-bottom: 0;
+    }
+
+    .why-us h2 {
+        padding: 0 10px;
+    }
+
+    .why-us img {
+        margin-bottom: 5rem;
     }
 }
